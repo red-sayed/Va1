@@ -1,5 +1,7 @@
 # Va1 ![](https://img.shields.io/apm/l/vim-mode)
 
+![plot](.Screenshots/Va1_main.png)
+
 ## What is it?
 
 Va1 is a simple character converter. It converts characters into nums, might be used in encryption protocols or as independent algorithm.
