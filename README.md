@@ -1,6 +1,6 @@
 # Va1 ![](https://img.shields.io/apm/l/vim-mode)
 
-![plot](.Screenshots/Va1_main.png)
+![plot](./Screenshots/Va1_main.png)
 
 ## What is it?
 
