@@ -4,7 +4,7 @@
 
 ## What is it?
 
-Va1 is a simple character converter. It converts characters into nums, might be used in encryption protocols or as independent algorithm.
+Va1 is a simple character converter. It converts characters into nums, might be used in encryption protocols or as independent algorithm. It is a part of [RedLibrary](https://github.com/Red-company/RedLibrary).
 
 ## How to use?
 
