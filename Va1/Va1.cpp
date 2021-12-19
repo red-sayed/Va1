@@ -17,7 +17,7 @@ class _red_for_Va1 {
         _red_for_Va1() {}
 
         // Encode function.
-        inline const std::string FirstEncoding(const std::string_view RFirst) {
+        static inline const std::string FirstEncoding(const std::string_view RFirst) {
             std::string Fstep = "";
 
             for (size_t sybm = 0; sybm < RFirst.length(); sybm++) {
@@ -341,7 +341,7 @@ class _red_for_Va1 {
         }
 
         // Decode function.
-        inline const std::string LastDecoding(const std::string_view RLast) {
+        static inline const std::string LastDecoding(const std::string_view RLast) {
             std::string Lstep = "";
 
             for (size_t symb = 0; symb < RLast.length(); symb+=2) {
@@ -631,8 +631,7 @@ class _red_for_Va1 {
  * @return Encoded string.
  */
 const std::string Red::Va1Encode(const std::string_view ToEnc) {
-    _red_for_Va1 c;
-    return c.FirstEncoding(ToEnc);
+    return _red_for_Va1::FirstEncoding(ToEnc);
 }
 
 /**
@@ -643,6 +642,5 @@ const std::string Red::Va1Encode(const std::string_view ToEnc) {
  * @return Decoded string.
  */
 const std::string Red::Va1Decode(const std::string_view ToDec) {
-    _red_for_Va1 c;
-    return c.LastDecoding(ToDec);
+    return _red_for_Va1::LastDecoding(ToDec);
 }
