@@ -1,5 +1,5 @@
 /**
- * @file    Va1.h
+ * @file    Va1.cpp
  * @brief   Va1 is encryption/decryption lib.
  *
  * Copyright (c) 2020-2021 Vladimir Rogozin (vladimir20040609@gmail.com)
