@@ -23,5 +23,11 @@ const std::string Va1Decode(const std::string_view ToDec);
 * It also understands characters like '\n', '\\' and some others.
 * It's not fast but it still useful.
 
+## Example:
+
+![plot](./Screenshots/Va1_enc.png)
+
+![plot](./Screenshots/Va1_dec.png)
+
 ##
 All material in this repository is in the public domain.
