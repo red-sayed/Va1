@@ -12,10 +12,10 @@ Function prototypes:
 
 ```C
 // Encryption.
-const std::string Va1Encode(const std::string_view ToEnc);
+std::string * Va1Encode(const std::string *ToEnc);
 
 // Decryption.
-const std::string Va1Decode(const std::string_view ToDec);
+std::string * Va1Decode(const std::string *ToDec);
 ```
 
 ## Tech notes:
