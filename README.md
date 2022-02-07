@@ -4,8 +4,40 @@
 
 ## What is it?
 
-_Va1_ is a simple character converter. It converts characters into nums, might be used in encryption protocols or as independent algorithm. It is a part of [_RedLibrary_](https://github.com/Red-company/RedLibrary).
+_Va1_ is a simple character converter. It converts characters into nums(if , might be used in encryption protocols or as independent algorithm. It is a part of [_RedLibrary_](https://github.com/Red-company/RedLibrary).
 
+## How it works?
+
+_Va1_ uses the following table to substitute characters:
+```
+Main (nums only)
+----------------
+
+|---------|---|---|---|---|---|---|---|---|---|---|
+| **Va1** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|---------|---|---|---|---|---|---|---|---|---|---|
+| 0       | l | p | r | t | u | d | h | f | c | n |
+| 1       | v | w | b | j | o | y | a | z | m | k |
+| 2       | x | s | q | e | i | g | ! | @ | ( | & |
+| 3       | # | % | $ | * | ^ | ) | _ | + | > | = |
+| 4       | < | - | . | , | : | | | ; | { | [ | ] |
+| 5       | } | ? | " |' '| ` | ~ | G | 0 | 7 | 5 |
+| 6       | 2 | 3 | 1 | 4 | 8 | 6 | 9 | L | P | R |
+| 7       | T | U | D | H | F | C | N | V | W | B |
+| 8       | J | O | Y | A | Z | M | K | X | S | Q |
+| 9       | E | I | \r| \n| \t| \v| \e| \0| \ | \'|
+|---------|---|---|---|---|---|---|---|---|---|---|
+
+
+Additional (digits too):
+------------------------
+
+|---------|---|---|---|
+| **Va1** | a | b | c |
+|---------|---|---|---|
+| 0       | \f| \a| \b|
+|---------|---|---|---|
+```
 ## How to use?
 
 Function prototypes:
