@@ -1,5 +1,7 @@
 # 🔑 Va1 ![](https://img.shields.io/apm/l/vim-mode)
 
+> ‼️ *Patenting in process.* Don't try to steal or you'll lose your money.
+
 ![plot](./Screenshots/Va1_main.png)
 
 ## What is it?
@@ -62,4 +64,5 @@ std::string * Va1Decode(const std::string *ToDec);
 ![plot](./Screenshots/Va1_dec.png)
 
 ##
-All material in this repository is in the public domain.
+All material in this repository is in the public domain.<br/>
+With _**Copyright© ∞ [Vladimir Rogozin](https://github.com/red-sayed).**_
