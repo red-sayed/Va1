@@ -27,18 +27,9 @@ Main (nums only)
 | 6       | 2 | 3 | 1 | 4 | 8 | 6 | 9 | L | P | R |
 | 7       | T | U | D | H | F | C | N | V | W | B |
 | 8       | J | O | Y | A | Z | M | K | X | S | Q |
-| 9       | E | I | \r| \n| \t| \v| \e| \0| \ | \'|
+| 9       | E | I | / | \\| \'| ----------------- |
 |---------|---|---|---|---|---|---|---|---|---|---|
 
-
-Additional (digits too):
-------------------------
-
-|---------|---|---|---|
-| **Va1** | a | b | c |
-|---------|---|---|---|
-| 0       | \f| \a| \b|
-|---------|---|---|---|
 ```
 ## How to use?
 
@@ -54,7 +45,7 @@ std::string * Va1Decode(const std::string *ToDec);
 
 ## Tech notes:
 
-* It also understands characters like '\n', '\\' and some others.
+* It understands only characters from the table above.
 * It's not fast but it still useful.
 
 ## Example:
