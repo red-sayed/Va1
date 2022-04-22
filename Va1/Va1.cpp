@@ -178,7 +178,7 @@ class _red_for_Va1 {
                 case '?':
                     *Fstep += "51";
                     break;
-                case '\\':
+                case '/':
                     *Fstep += "52";
                     break;
                 case ' ':
@@ -297,9 +297,6 @@ class _red_for_Va1 {
                     break;
                 case 'I':
                     *Fstep += "91";
-                    break;
-                case '/':
-                    *Fstep += "92";
                     break;
                 default:
                     *Fstep += "4242"; // point.
@@ -447,7 +444,7 @@ class _red_for_Va1 {
                     } else if ((*RLast)[symb+1] == '1') {
                         *Lstep += "?";
                     } else if ((*RLast)[symb+1] == '2') {
-                        *Lstep += "\\";
+                        *Lstep += "/";
                     } else if ((*RLast)[symb+1] == '3') {
                         *Lstep += " ";
                     } else if ((*RLast)[symb+1] == '4') {
@@ -546,10 +543,6 @@ class _red_for_Va1 {
                         *Lstep += "E";
                     } else if ((*RLast)[symb+1] == '1') {
                         *Lstep += "I";
-                    } else if ((*RLast)[symb+1] == '2') {
-                        *Lstep += "/";
-                    } else if ((*RLast)[symb+1] == '3') {
-                        *Lstep += "\\";
                     }
 
                     break;
